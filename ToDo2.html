@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo LIST</title>
+</head>
+                        <!-- tO DO AVEC LE BUTTON CHECK + LINE THROUGH  -->
+<body>
+
+<div class="input_container">
+    <input id="input" type="text" style="height: 30px;">
+    <button id="add">Ajouter</button>
+    <button id="dell">Dell</button>
+</div>
+
+ <div class="task">
+<h1 style="text-align: center; ">Tasks List</h1>
+
+
+
+<ul class="todo-list">
+
+    
+
+</ul>
+
+<br>
+</div>
+</body>
+</html>
+<script src="ToDo2.js">
+
+</script>
+<style>
+    body{
+        background-color: rgb(17, 77, 103);
+    }
+.input_container{
+    width: 500px;
+    margin: 200px auto;
+    display: flex;
+}
+
+.input_container input {
+width: 100%;
+}
+.todo-list {
+   
+    width: 500px;
+    margin: 0 auto; 
+    font-size: large;
+}
+
+.todo-list li {
+   
+ display: flex;
+}
+
+.task{
+    width: 500px;
+    margin: 200px auto;
+    background-color: rgb(127, 161, 178);
+    border: 8px solid;
+  border-radius: 10px;
+  font-size: x-large;
+}
+#add{
+    background-color: rgb(8, 238, 238);
+}
+.checked{
+    text-decoration: line-through;
+}
+</style>
